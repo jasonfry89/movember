@@ -1,0 +1,60 @@
+.page-container {
+  margin: 0 20px;
+}
+#fit-width .masonry {
+  margin: 0 auto;
+}
+#fit-width .masonry > .item {
+  border: 1px solid #dddddd;
+  height: 300px;
+  width: 250px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  box-shadow: 0px 1px 5px -1px #cccccc;
+  cursor: pointer;
+  max-width: 800px;
+  background: white;
+}
+#fit-width .masonry > .item:not(.active) .carousel-control,
+#fit-width .masonry > .item:not(.active) .carousel-caption,
+#fit-width .masonry > .item:not(.active) .carousel-indicators {
+  display: none;
+}
+#fit-width .masonry > .item:hover {
+  background-color: whitesmoke;
+}
+#fit-width .masonry > .item.active {
+  cursor: default;
+}
+#fit-width .masonry > .item:not(.active) .unactive-hide {
+  display: none;
+}
+#fit-width .masonry > .item:not(.admin) .admin-hide {
+  display: none;
+}
+#fit-width .masonry > .item > .info-panel {
+  text-align: left;
+}
+#fit-width .masonry > .item > .info-panel > .department {
+  display: inline-block;
+  padding: 5px;
+}
+#fit-width .masonry > .item > .item-footer {
+  position: absolute;
+  text-align: left;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e6e6e6;
+  padding: 5px;
+}
+.overlay {
+  background: black;
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 40;
+  cursor: pointer;
+}

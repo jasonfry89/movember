@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<head>
+    <title>Movember</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Welcome to Movember</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-default">Log in</button>
+                <button type="button" class="btn btn-primary" onclick="signUp()">Sign up</button>
+            </form>
+        </div>
+    </nav>
+    <div class="page-container">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Welcome to Movember!</h1>
+                    <p>...</p>
+                    <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+
+        <h2>Meet the Mos</h2>
+        <div class="btn-group pull-right">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Sort By
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Images</a></li>
+                <li><a href="#">Likes</a></li>
+                <li><a href="#">Recent</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+
+        <div id="fit-width">
+           
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.1/masonry.pkgd.js"></script>
+    <script src="/js/participants.js"></script>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
